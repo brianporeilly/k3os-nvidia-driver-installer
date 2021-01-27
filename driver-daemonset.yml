@@ -37,7 +37,7 @@ spec:
           hostPath:
             path: /
       initContainers:
-        - image: brianporeilly/k3os-nvidia-driver-installer:0.2.1
+        - image: brianporeilly/k3os-nvidia-driver-installer:0.3.1
           name: nvidia-driver-installer
           resources:
             requests:
